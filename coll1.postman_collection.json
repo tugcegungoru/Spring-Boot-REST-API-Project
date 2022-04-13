@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "dfe80953-5c81-452f-b808-af20183054a7",
+		"name": "coll1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://61dc352c591c3a0017e1a7ad.mockapi.io/employees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Test\",\r\n        \"surname\": \"Test\",\r\n        \"department\": \"QA Test\",\r\n        \"phone\": \"5333333333\",\r\n        \"email\": \"test@gmail.com\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://61dc352c591c3a0017e1a7ad.mockapi.io/employees",
+					"protocol": "https",
+					"host": [
+						"61dc352c591c3a0017e1a7ad",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://61dc352c591c3a0017e1a7ad.mockapi.io/employees",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Test\",\r\n        \"surname\": \"Test\",\r\n        \"department\": \"QA Test\",\r\n        \"phone\": \"5333333333\",\r\n        \"email\": \"test@gmail.com\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://61dc352c591c3a0017e1a7ad.mockapi.io/employees",
+					"protocol": "https",
+					"host": [
+						"61dc352c591c3a0017e1a7ad",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://61dc352c591c3a0017e1a7ad.mockapi.io/employees/51",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://61dc352c591c3a0017e1a7ad.mockapi.io/employees/51",
+					"protocol": "https",
+					"host": [
+						"61dc352c591c3a0017e1a7ad",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"employees",
+						"51"
+					]
+				},
+				"description": "Get Tugce"
+			},
+			"response": []
+		}
+	]
+}
